@@ -1,0 +1,124 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body
+{
+    height: 100vh;
+}
+
+.main
+{
+    background-color:azure;
+     font-size: 100%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    
+}
+
+.container
+{
+    display: flex;
+    
+    justify-content:center;
+    align-items: center;
+    gap: 0px;
+
+    
+}
+
+.box1
+{
+ height: 200px;
+ width: 300px; 
+ background-color:aliceblue; 
+ border-top: 5px aqua solid; 
+ border-radius: 5px;
+ font-weight: 400;
+ text-align:left;
+ padding: 20px;
+ box-shadow: 2px 2px 5px;
+ position: relative;
+ 
+}
+
+.box23
+{
+    /* height: 400px;
+    width: 300px;  */
+    
+     
+    border-radius: 5px;
+    font-weight: 400;
+    text-align:left;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.box4
+{
+    height: 200px;
+    width: 300px; 
+    background-color:aliceblue; 
+    border-top: 5px blue solid; 
+    border-radius: 5px;
+    font-weight: 400;
+    text-align:left;
+    padding: 20px; 
+    box-shadow: 2px 2px 5px; 
+    position: relative;
+}
+
+.box2
+{
+    height: 200px;
+    width: 300px; 
+    background-color:aliceblue; 
+    border-top: 5px brown solid; 
+    border-radius: 5px;
+    font-weight: 400;
+    text-align:left;
+    padding: 20px;
+    box-shadow: 2px 2px 5px;
+    position: relative;
+}
+
+.box3
+{
+    height: 200px;
+    width: 300px; 
+    background-color:aliceblue; 
+    border-top: 5px goldenrod solid; 
+    border-radius: 5px;
+    font-weight: 400;
+    text-align:left;
+    padding: 20px;
+    box-shadow: 2px 2px 5px;
+    position: relative;
+}
+
+.light-text, .box1, .box2, .box3, .box4
+{
+    font-weight: 100;
+    color:      rgb(65, 62, 62);
+}
+
+h3{
+    color: black;
+}
+
+.image
+{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    left: 250px;
+    bottom: 20px;
+}
